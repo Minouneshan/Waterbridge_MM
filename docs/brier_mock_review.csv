@@ -1,0 +1,7 @@
+Forecast,Prob,Outcome (0/1),Brier Score
+"Event #2",0.85,1,0.0225
+"Event #6",0.65,0,0.4225
+"Event #13",0.55,1,0.2025
+"Event #17",0.75,1,0.0625
+"Event #20",0.75,1,0.0625
+"Avg",,,"=AVERAGE(D2:D6)"
