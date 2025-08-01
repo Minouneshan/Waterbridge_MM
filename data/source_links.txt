@@ -1,0 +1,21 @@
+WTO World Tariff Profiles: https://www.wto.org/english/res_e/statis_e/statis_e.htm
+IMF WEO: https://www.imf.org/en/Publications/WEO
+US Census FT900: https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html
+IFPRI Trade Tracker: https://www.foodsecurityportal.org/tools/future-food-trade-tracker
+IMF COFER: https://data.imf.org/?sk=E6A5F467-C14B-4AA8-9F6D-5A09EC4E62A4
+SWIFT RMB Tracker: https://www.swift.com/about-us/press-room/monthly-rmb-tracker
+OECD Economic Outlook: https://www.oecd.org/economic-outlook/
+World Bank Global Economic Prospects: https://www.worldbank.org/en/publication/global-economic-prospects
+BIS Financial Stability Reports: https://www.bis.org/publ/qtrpdf/
+Semiconductor Industry Association: https://www.semiconductors.org/resources/industry-statistics/
+IC Insights McClean Report: https://www.icinsights.com/news/bulletins/
+Oxford Institute for Energy Studies: https://www.oxfordenergy.org/
+European Commission State Aid Scoreboard: https://ec.europa.eu/competition/state_aid/scoreboard/
+UN Comtrade: https://comtrade.un.org/
+China Customs Statistical Yearbook: http://www.customs.gov.cn/
+ISO/ITU Standards: https://www.iso.org/ and https://www.itu.int/
+RCEP Secretariat: https://rcepsec.org/
+Asian Infrastructure Investment Bank: https://www.aiib.org/
+New Development Bank: https://www.ndb.int/
+TerraPower Nuclear Innovation: https://www.terrapower.com/
+U.S. International Trade Commission DataWeb: https://dataweb.usitc.gov/
