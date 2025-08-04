@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  1 AUG 2025 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  4 AUG 2025 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -532,28 +532,28 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 .def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count334
-) (final_comprehensive_report.aux)
+)
+No file final_comprehensive_report.aux.
 \openout1 = `final_comprehensive_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -588,11 +588,9 @@ LaTeX Font Info:    ... okay on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 52.
-(final_comprehensive_report.out) (final_comprehensive_report.out)
+Package hyperref Info: Link coloring OFF on input line 55.
 \@outlinefile=\write3
 \openout3 = `final_comprehensive_report.out'.
-
 
 (C:\Users\Mo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -620,18 +618,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
  (C:\Users\Mo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (C:\Users\Mo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(final_comprehensive_report.toc)
+No file final_comprehensive_report.toc.
 \tf@toc=\write4
 \openout4 = `final_comprehensive_report.toc'.
 
@@ -644,297 +642,222 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2
 
 ]
+Overfull \hbox (36.00769pt too wide) in alignment at lines 117--121
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (36.00769pt too wide) in alignment at lines 121--123
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[]|\OT1/cmr/m/n/9 WTO World Tar-iff Pro-files 2027
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 125--126
+\OT1/cmr/m/n/9 vs 2023. \Yes" if the global av-er-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/9 WTO Ap-pel-late Body re-mains in-op-er-a-tive on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]|\OT1/cmr/m/n/9 U.S. ITC DataWeb (data vin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+\OT1/cmr/m/n/9 tage Q1 2028). \Yes" if 2027 im-
+ []
+
+
+! LaTeX Error: Unicode character ∼ (U+223C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...\geq 35\%$ of global trade (current: ∼
+                                                  32\%). \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 146--147
+[]|\OT1/cmr/m/n/9 UN Com-trade database (June 2031 up-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 146--147
+\OT1/cmr/m/n/9 com-prises $\OMS/cmsy/m/n/9 ^^U \OT1/cmr/m/n/9 35%$ of global tr
+ade (cur-
+ []
+
+
+! LaTeX Error: Unicode character ∼ (U+223C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...% of total Chinese exports (current: ∼
+                                                  47\%). \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]|\OT1/cmr/m/n/9 China Cus-toms (GAC) \OT1/cmr/m/it/9 An-nual Year-
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 152--152
+[]|\OT1/cmr/m/n/9 BRICS share of world PPP[]GDP $\OMS/cmsy/m/n/9 ^^U \OT1/cmr/m
+/n/9 40%$ and
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 152--153
+[]|\OT1/cmr/m/n/9 IMF WEO 2031 and NDB An-nual Re-
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 152--153
+\OT1/cmr/m/n/9 port 2030. \Yes" if both con-di-tions are
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 155--156
+[]|\OT1/cmr/m/n/9 European Com-mis-sion State[]Aid Score-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]|\OT1/cmr/m/n/9 PRC Min-istry of Com-merce of-fi-cial
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 170--171
+\OT1/cmr/m/n/9 be-yond cur-rent graphite, gal-lium and
+ []
+
+
+! LaTeX Error: Unicode character ∼ (U+223C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...reserve share exceeds 50\% (current: ∼
+                                                  59\%). \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 176--177
+[]|\OT1/cmr/m/n/9 IMF COFER 2030 and SWIFT RMB
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 179--179
+[]|$\OMS/cmsy/m/n/9 ^^U \OT1/cmr/m/n/9 3$ of the top[]10 oil ex-porters price $
+\OMS/cmsy/m/n/9 ^^U \OT1/cmr/m/n/9 20%$ of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]|\OT1/cmr/m/n/9 Oxford In-sti-tute for En-ergy Stud-ies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/cmr/m/n/9 Cur-rency of Com-mod-ity Trade Sur-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 179--180
+\OT1/cmr/m/n/9 oil ex-porters meet the non[]USD pric-ing
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 182--183
+[]|\OT1/cmr/m/n/9 Official gov-ern-ment sources (EU Of-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+[]|\OT1/cmr/m/n/9 National Sci-ence Foun-da-tion \OT1/cmr/m/it/9 Sci-
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 191--192
+\OT1/cmr/m/it/9 ence&Engineering In-di-ca-tors 2031 \OT1/cmr/m/n/9 and
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 194--195
+[]|\OT1/cmr/m/n/9 OECD \OT1/cmr/m/it/9 Dig-i-tal Econ-omy Out-look 2028\OT1/cmr
+/m/n/9 .
+ []
+
+
+Overfull \hbox (36.00769pt too wide) in alignment at lines 123--199
+ [] [] [] [] 
+ []
 
 [3
 
-]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.107 ID & Forecast Statement & Prob. &
-                                        Resolution Criteria \\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \hbox (852.0696pt too wide) in alignment at lines 105--109
- [] [] [] 
- []
-
-
-Overfull \hbox (852.0696pt too wide) in alignment at lines 109--111
- [] [] [] 
- []
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.113 ...rcentage points vs 2022 by 2026. & 70\% &
-                                                   WTO World Tariff Profiles...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.116 ...ains inoperative on 31 Dec 2027. & 80\% &
-                                                   WTO Secretariat's officia...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.119 ...P growth in every year 2025--27. & 75\% &
-                                                   IMF World Economic Outloo...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.122 ...ose new export bans by end 2026. & 65\% &
-                                                   IFPRI Food Trade Policy T...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.125 ... trade $\leq$ 2020 through 2030. & 80\% &
-                                                   WTO Trade in Services dat...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.128 ...2\% in at least one of 2025--27. & 75\% &
-                                                   U.S. Census Bureau FT-900...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.131 ...le their 2022 USD value by 2027. & 72\% &
-                                                   U.S. ITC DataWeb (data vi...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.134 ...geq$35\% of world trade by 2030. & 65\% &
-                                                   UN Comtrade database (Jun...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.137 ..." (Asia, Africa, LatAm) in 2030. & 68\% &
-                                                   China Customs (GAC) Annua...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.140 ... capital $\geq$\$200 bn by 2030. & 70\% &
-                                                   IMF WEO 2031 and NDB Annu...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.143 ...sidies by 2028; no member exits. & 78\% &
-                                                   European Commission State...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.146 ...in industrial subsidies by 2026. & 77\% &
-                                                   Official government budge...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.149 ... production in the U.S. by 2027. & 62\% &
-                                                   Semiconductor Industry As...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.152 ...inate $\geq$3 verticals by 2030. & 75\% &
-                                                   ISO/ITU standards catalog...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.155 ... 2030, but <30\% of <5 nm chips. & 58\% &
-                                                   IC Insights McClean Repor...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.158 ... "critical mineral" by end 2025. & 60\% &
-                                                   PRC Ministry of Commerce ...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.161 ...es stays $>$50\% on 30 Jun 2030. & 77\% &
-                                                   IMF COFER report for Q2 2...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.164 ...30 and $<$5\% of SWIFT payments. & 72\% &
-                                                   IMF COFER 2030 and SWIFT ...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.167 ...xport volume in non-USD by 2030. & 58\% &
-                                                   Oxford Institute for Ener...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.170 ...her G-20 carbon tariffs by 2030. & 78\% &
-                                                   Official government sourc...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.173 ...least 2 years between 2025-2028. & 75\% &
-                                                   IMF World Economic Outloo...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.176 ...s with $\geq$\$50bn AUM by 2030. & 68\% &
-                                                   Sovereign Wealth Fund Ins...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.179 ...le U.S. remains <30,000 by 2030. & 70\% &
-                                                   National Science Foundati...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.182 ...ng $\geq$3 data domains by 2027. & 80\% &
-                                                   OECD Digital Economy Outl...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.185 ...eq$25\% in real terms 2025-2030. & 65\% &
-                                                   SIPRI Military Expenditur...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \hbox (852.0696pt too wide) in alignment at lines 111--187
- [] [] [] 
- []
-
-[4
-
-]
+] [4]
 
 [5]
-<bayesian_analysis.png, id=73, 1075.6185pt x 858.0858pt>
-File: bayesian_analysis.png Graphic file (type png)
-<use bayesian_analysis.png>
-Package pdftex.def Info: bayesian_analysis.png  used on input line 216.
-(pdftex.def)             Requested size: 223.14897pt x 178.01674pt.
+
+! LaTeX Error: Unicode character ≈ (U+2248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 ...textbf{5G Infrastructure}: Open RAN (≈
+                                                  60\%) vs. Chinese integrat...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 217.
-See the caption package documentation for explanation.
+! LaTeX Error: Unicode character ≈ (U+2248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 ...60\%) vs. Chinese integrated systems (≈
+                                                  40\%).
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-Overfull \hbox (13.74452pt too wide) in paragraph at lines 232--233
-[]\OT1/cmr/m/n/9 Our fore-cast-ing frame-work em-ploys a 25-node Bayesian be-li
-ef net-work with log-odds up-dat-ing: $[](\OML/cmm/m/it/9 P[]\OT1/cmr/m/n/9 ) =
- [](\OML/cmm/m/it/9 P[]\OT1/cmr/m/n/9 ) +
+Overfull \hbox (8.07497pt too wide) in paragraph at lines 278--279
+\OT1/cmr/m/n/9 ($$25$ tril-lion) far ex-ceeds al-ter-na-tive cur-rency ca-pac-i
+ty. Cri-sis pe-ri-ods re-verse two to three years of ero-sion through flight[]t
+o[]quality
  []
 
 
 
-[6
+[6]
 
- <./bayesian_analysis.png>]
-
-[7]
-
-[8
-
-]
-
-[9
-
-] (final_comprehensive_report.aux)
+[7] (final_comprehensive_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -947,39 +870,39 @@ ed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `final_comprehensive_report.out':
-(rerunfilecheck)             Before: C42C500B4A4F6C3D3F6278FD80762021;1655
-(rerunfilecheck)             After:  CE2EF36F482488BF879F8DC3CADA4DCA;2847.
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  9D4A019183356AFA50E5FC7EEE62123F;2850.
  ) 
 Here is how much of TeX's memory you used:
- 13157 strings out of 469923
- 209691 string characters out of 5470623
- 621394 words of memory out of 5000000
- 39772 multiletter control sequences out of 15000+600000
- 639112 words of font info for 86 fonts, out of 8000000 for 9000
+ 13120 strings out of 469923
+ 208726 string characters out of 5470623
+ 638144 words of memory out of 5000000
+ 39747 multiletter control sequences out of 15000+600000
+ 637019 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1238b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Mo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx090
+ 75i,11n,79p,1247b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Mo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm090
 0.pk> <C:\Users\Mo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
-0900.pk> <C:\Users\Mo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
-crm0900.pk><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx9.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Mo/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Mo/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mo/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mo/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Mo/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Mo/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/User
-s/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:
-/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pf
-b>
+0900.pk><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx9.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cmextra/cmex9.pfb><C:/Users/Mo/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Mo/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Mo/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mo/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Mo/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Mo/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/M
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Us
+ers/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><
+C:/Users/Mo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.
+pfb>
 Output written on c:\Users\Mo\Desktop\Waterbridge\Waterbridge_MM\docs\final_com
-prehensive_report.pdf (9 pages, 622875 bytes).
+prehensive_report.pdf (7 pages, 224789 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
