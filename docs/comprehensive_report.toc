@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Executive Summary}{3}{section.1}%
+\contentsline {section}{\numberline {2}Binary Forecasts and Resolution Criteria}{5}{section.2}%
+\contentsline {section}{\numberline {3}The Tectonic Shift to Modern Mercantilism}{8}{section.3}%
+\contentsline {section}{\numberline {4}Three Pillars of Modern Mercantilism}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Institutional Breakdown}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Economic Reorientation}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Technological Bifurcation}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Strategic Implications and Investment Framework}{9}{section.5}%
+\contentsline {section}{\numberline {6}Emerging Equilibrium: Fragmentation as a Stable State}{10}{section.6}%
+\contentsline {section}{\numberline {7}Analytical Appendix}{11}{section.7}%
+\contentsline {section}{\numberline {8}Methodological Foundation and Model Architecture}{11}{section.8}%
+\contentsline {section}{\numberline {9}Quantitative Trade Flow Analysis}{12}{section.9}%
+\contentsline {subsection}{\numberline {9.1}China’s Import Share Decline (F6)}{12}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Vietnam Import Growth (F7)}{12}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Technology Standards Bifurcation Analysis}{12}{section.10}%
+\contentsline {section}{\numberline {11}BRICS Economic Integration Model}{12}{section.11}%
+\contentsline {section}{\numberline {12}Defence Spending and Security Economics}{13}{section.12}%
+\contentsline {section}{\numberline {13}Extended Analysis: Costs, Inflation and Innovation}{13}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Supply‑Chain Costs and Inflation}{13}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Inflation Implications and Monetary Policy}{13}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Technology Competition and Innovation Ecosystems}{14}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Regional Bloc Formation and Trade Architecture}{14}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Environmental Policy and Industrial Competition}{14}{subsection.13.5}%
+\contentsline {section}{\numberline {14}Advanced Econometric Analysis and Model Validation}{15}{section.14}%
+\contentsline {section}{\numberline {15}Conclusion and Model Validation}{15}{section.15}%
+\contentsline {section}{\numberline {16}References}{17}{section.16}%
