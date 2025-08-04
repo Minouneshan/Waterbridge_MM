@@ -7,16 +7,24 @@ from sklearn.preprocessing import PolynomialFeatures
 import seaborn as sns
 from bayesian_model import create_comprehensive_model
 import warnings
+from pathlib import Path
+
 warnings.filterwarnings('ignore')
+
+# Project root directory two levels above this script
+ROOT_DIR = Path(__file__).resolve().parents[1]
 
 def load_and_validate_data():
     """Load and validate all data files"""
     try:
+        # Determine project root (two levels up) and data directory for reproducibility
+        data_dir = ROOT_DIR / 'data'
+
         # Load all data files
-        china_imports = pd.read_csv('../data/us_imports.csv')
-        vietnam_imports = pd.read_csv('../data/vietnam_us_imports.csv')
-        brics_gdp = pd.read_csv('../data/brics_gdp_share.csv')
-        brics_data = pd.read_csv('../data/brics_data.csv')
+        china_imports = pd.read_csv(data_dir / 'us_imports.csv')
+        vietnam_imports = pd.read_csv(data_dir / 'vietnam_us_imports.csv')
+        brics_gdp = pd.read_csv(data_dir / 'brics_gdp_share.csv')
+        brics_data = pd.read_csv(data_dir / 'brics_data.csv')
         
         print("✓ All data files loaded successfully")
         return china_imports, vietnam_imports, brics_gdp, brics_data
@@ -91,7 +99,7 @@ def analyze_china_import_decline():
     plt.legend(fontsize=11)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('../docs/china_imports_trend.png', dpi=300, bbox_inches='tight')
+    plt.savefig(ROOT_DIR / 'docs' / 'china_imports_trend.png', dpi=300, bbox_inches='tight')
     plt.close()
     
     return results
@@ -150,7 +158,7 @@ def analyze_vietnam_import_growth():
     plt.legend(fontsize=11)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('../docs/vietnam_imports_trend.png', dpi=300, bbox_inches='tight')
+    plt.savefig(ROOT_DIR / 'docs' / 'vietnam_imports_trend.png', dpi=300, bbox_inches='tight')
     plt.close()
     
     return results
@@ -230,7 +238,7 @@ def analyze_brics_expansion():
     ax2.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
-    plt.savefig('../docs/brics_analysis.png', dpi=300, bbox_inches='tight')
+    plt.savefig(ROOT_DIR / 'docs' / 'brics_analysis.png', dpi=300, bbox_inches='tight')
     plt.close()
     
     return results
@@ -262,7 +270,7 @@ def generate_comprehensive_analysis():
         model.update_with_evidence('F10', 0.6, 'BRICS GDP share trending toward 40% by 2030', 'academic_research')
     
     # Generate network visualization
-    viz_path = model.visualize_network('../docs/bayesian_analysis.png')
+    viz_path = model.visualize_network(str(ROOT_DIR / 'docs' / 'bayesian_analysis.png'))
     print(f"✓ Network visualization saved: {viz_path}")
     
     # Generate summary statistics

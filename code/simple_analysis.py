@@ -6,7 +6,12 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 import networkx as nx
 import warnings
+from pathlib import Path
+
 warnings.filterwarnings('ignore')
+
+# Project root directory two levels above this script
+ROOT_DIR = Path(__file__).resolve().parents[1]
 
 def run_simple_analysis():
     """Run simple analysis and generate key visualizations"""
@@ -14,9 +19,10 @@ def run_simple_analysis():
     print("=" * 50)
     
     # Load data
-    china_imports = pd.read_csv('../data/us_imports.csv')
-    vietnam_imports = pd.read_csv('../data/vietnam_us_imports.csv')
-    brics_gdp = pd.read_csv('../data/brics_gdp_share.csv')
+    data_dir = ROOT_DIR / 'data'
+    china_imports = pd.read_csv(data_dir / 'us_imports.csv')
+    vietnam_imports = pd.read_csv(data_dir / 'vietnam_us_imports.csv')
+    brics_gdp = pd.read_csv(data_dir / 'brics_gdp_share.csv')
     
     # Analyze China imports decline (F6)
     print("\n📉 F6: China Import Share Decline")
@@ -51,9 +57,10 @@ def create_visualizations():
     plt.style.use('seaborn-v0_8-whitegrid')
     
     # Load data
-    china_imports = pd.read_csv('../data/us_imports.csv')
-    vietnam_imports = pd.read_csv('../data/vietnam_us_imports.csv')
-    brics_gdp = pd.read_csv('../data/brics_gdp_share.csv')
+    data_dir = ROOT_DIR / 'data'
+    china_imports = pd.read_csv(data_dir / 'us_imports.csv')
+    vietnam_imports = pd.read_csv(data_dir / 'vietnam_us_imports.csv')
+    brics_gdp = pd.read_csv(data_dir / 'brics_gdp_share.csv')
     
     # Create figure with subplots
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
@@ -120,7 +127,7 @@ def create_visualizations():
     ax4.axis('off')
     
     plt.tight_layout()
-    plt.savefig('../docs/comprehensive_analysis.png', dpi=300, bbox_inches='tight')
+    plt.savefig(ROOT_DIR / 'docs' / 'comprehensive_analysis.png', dpi=300, bbox_inches='tight')
     plt.close()
     
     # Create simple Bayesian network visualization
@@ -209,7 +216,7 @@ def create_bayesian_network():
               fontsize=14, fontweight='bold', pad=20)
     plt.axis('off')
     plt.tight_layout()
-    plt.savefig('../docs/bayesian_analysis.png', dpi=300, bbox_inches='tight')
+    plt.savefig(ROOT_DIR / 'docs' / 'bayesian_analysis.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 if __name__ == "__main__":
