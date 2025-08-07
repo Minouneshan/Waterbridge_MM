@@ -5,16 +5,16 @@
 ---
 
 ## 1. Project Overview
-This repository contains the complete **Framework Version 2.0** implementation with **100% quantitative model coverage** across all **25 binary forecasts** spanning 1–10 year horizons. The enhanced framework achieves unprecedented analytical depth through:
+This repository contains a complete implementation with **100% quantitative model coverage** across all **25 binary forecasts** spanning 1–10 year horizons. The framework achieves unprecedented analytical depth through:
 
-- **Complete Econometric Coverage**: All 25 forecasts now backed by quantitative models
+- **Complete Econometric Coverage**: All 25 forecasts backed by quantitative models
 - **Advanced Statistical Methods**: Linear regression, VAR models, Monte Carlo simulation, logistic regression
 - **Bayesian Network Integration**: Probabilistic reasoning with interdependency analysis
 - **Comprehensive Validation**: Structural break tests, confidence intervals, and cross-validation
 
-**Key Achievement**: Framework Version 2.0 represents the first complete quantitative implementation of modern mercantilism analysis, with specialized models for trade restructuring (F1-F7), institutional changes (F8-F20), and systemic risks (F21-F25).
+**Key Achievement**: This represents the first complete quantitative implementation of modern mercantilism analysis, with specialized models for trade restructuring (F1-F7), institutional changes (F8-F20), and systemic risks (F21-F25).
 
-The flagship deliverable is the enhanced PDF report `docs/final_comprehensive_report_v2.pdf`, supported by fully reproducible Python analysis and transparent data provenance.
+The flagship deliverable is the comprehensive PDF report `docs/comprehensive_report.pdf`, supported by fully reproducible Python analysis and transparent data provenance.
 
 ## 2. Quick-start
 ### 2.1 Prerequisites
@@ -46,7 +46,7 @@ python code/statistical_tests.py
 make pdf         # convenient wrapper – or run the pdflatex sequence below
 
 # Manual alternative
-pdflatex  -interaction=nonstopmode -output-directory=docs  docs/final_comprehensive_report.tex
+pdflatex  -interaction=nonstopmode -output-directory=docs  docs/comprehensive_report.tex
 ```
 
 ### 2.4 Reproducing the analysis
@@ -63,7 +63,7 @@ All scripts write intermediate CSVs/PNGs to the `data/` and `docs/` directories 
 ## 3. Technical Framework Details
 
 ### 3.1 Quantitative Model Coverage
-**Framework Version 2.0** achieves **100% quantitative coverage** across all forecast categories:
+The framework achieves **100% quantitative coverage** across all forecast categories:
 
 **Trade Restructuring Forecasts (F1-F7)**
 - **F1**: Tariff escalation - ARIMA modeling on global MFN tariff data (70% probability)
@@ -137,11 +137,10 @@ Waterbridge_MM/
 │   ├── vietnam_us_imports.csv      # Bilateral trade data
 │   └── source_links.txt            # Data provenance documentation
 ├── docs/                           # Reports & documentation
-│   ├── final_comprehensive_report_v2.pdf  # Enhanced main report
-│   ├── comprehensive_report.pdf            # Original report
-│   ├── *.png                              # Analysis visualizations
-│   ├── analysis_metadata.json             # Model metadata
-│   └── *.tex                              # LaTeX source files
+│   ├── comprehensive_report.pdf        # Main comprehensive report
+│   ├── *.png                          # Analysis visualizations
+│   ├── analysis_metadata.json         # Model metadata
+│   └── *.tex                          # LaTeX source files
 ├── tests/                          # Validation & unit tests
 │   └── test_brier.py               # Brier score validation
 ├── environment.yml                 # Conda environment specification
@@ -197,4 +196,4 @@ Pull requests improving documentation, tests, or analytical methods are welcome.
 Distributed under the **MIT License**. See `LICENCE` for full text.
 
 ---
-*Last updated: 2025-01-15 | Framework Version 2.0 | Complete Quantitative Coverage Achieved*
+*Last updated: 2025-08-07 | Complete Quantitative Coverage Achieved*

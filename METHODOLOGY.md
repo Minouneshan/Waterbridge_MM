@@ -5,15 +5,15 @@
 ---
 
 ## 1. Executive Summary
-Our methodology produces calibrated probability estimates for **25 binary forecasts** spanning 1–10 years, achieving **100% quantitative model coverage** in Framework Version 2.0. The enhanced framework integrates:
+Our methodology produces calibrated probability estimates for **25 binary forecasts** spanning 1–10 years, achieving **100% quantitative model coverage**. The framework integrates:
 
 1. **Bayesian Belief Networks** – to propagate evidence across causally linked forecasts.
 2. **Advanced Econometrics** – comprehensive models for all 25 forecasts including linear regression, VAR, Monte Carlo, and logistic approaches.
 3. **Strategic Game-Theory** – to capture incentive-driven policy interactions.
-4. **Complete Forecast Coverage** – quantitative models now implemented for previously qualitative forecasts F8-F25.
+4. **Complete Forecast Coverage** – quantitative models implemented for all forecasts F1-F25.
 5. **Rigorous Source Weighting** – to combine heterogeneous evidence streams with traceable credibility scores.
 
-**Framework Completion Milestone:** Version 2.0 represents the first complete quantitative implementation, with econometric models backing every forecast from trade restructuring (F1-F7) through systemic risks (F21-F25).
+**Key Achievement:** This represents the first complete quantitative implementation, with econometric models backing every forecast from trade restructuring (F1-F7) through systemic risks (F21-F25).
 
 ---
 
@@ -22,11 +22,11 @@ Our methodology produces calibrated probability estimates for **25 binary foreca
 * **Implementation:** `code/bayesian_model.py` (simple framework) and `code/advanced_bayesian_model.py` (pgmpy-based)
 * **Nodes:** 25 forecasts organised into causal clusters with directed edges representing dependencies.
 * **Update Rule:**
-\[\text{logit}(P_{\text{updated}})=\text{logit}(P_{\text{prior}})+\sum_i w_i E_i\]
-with **w\_i ∈ [0.40,0.90]** reflecting source credibility and **E\_i** the signed evidence strength.
+$$\text{logit}(P_{\text{updated}}) = \text{logit}(P_{\text{prior}}) + \sum_i w_i E_i$$
+with $w_i \in [0.40, 0.90]$ reflecting source credibility and $E_i$ the signed evidence strength.
 * **Libraries:** NetworkX for visualization, pgmpy for advanced belief propagation (when available).
 
-### 2.2 Econometric Toolkit - Enhanced Coverage
+### 2.2 Econometric Toolkit
 * **Implementation:** `code/advanced_models.py`, `code/statistical_tests.py`, and `code/remaining_forecasts.py`
 * **Core Models (F1-F7):** Linear regression for trade share dynamics, exponential growth for Vietnam imports, Monte Carlo for trade-GDP decoupling.
 * **Extended Models (F8-F25):** Energy gap analysis, demographic transition modeling, conflict escalation models, AI governance fragmentation analysis.
@@ -64,7 +64,7 @@ Our enhanced framework integrates data from multiple tiers of sources, ensuring 
 
 ---
 
-## 4. Advanced Modeling Techniques - Framework Version 2.0
+## 4. Advanced Modeling Techniques
 
 ### 4.1 Econometric Model Specifications
 **Trade Restructuring Models (F1-F7)**
@@ -176,4 +176,4 @@ P(F3|F2) = 0.72 if F2=True, 0.35 if F2=False  # Vietnam benefits from diversific
 
 ---
 
-*Last updated: 2025-01-15 | Framework Version 2.0 Complete*
+*Last updated: 2025-08-07 | Complete Quantitative Framework*
