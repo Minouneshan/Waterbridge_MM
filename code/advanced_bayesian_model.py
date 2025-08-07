@@ -16,8 +16,17 @@ try:
     from pgmpy.estimators import MaximumLikelihoodEstimator, BayesianEstimator
     PGMPY_AVAILABLE = True
 except ImportError:
-    print("Warning: pgmpy not available. Install with: pip install pgmpy")
-    PGMPY_AVAILABLE = False
+    try:
+        # Try the newer API
+        from pgmpy.models import DiscreteBayesianNetwork as BayesianNetwork
+        from pgmpy.factors.discrete import TabularCPD
+        from pgmpy.inference import VariableElimination
+        from pgmpy.estimators import MaximumLikelihoodEstimator, BayesianEstimator
+        PGMPY_AVAILABLE = True
+        print("Using DiscreteBayesianNetwork (newer pgmpy API)")
+    except ImportError:
+        print("Warning: pgmpy not available. Install with: pip install pgmpy")
+        PGMPY_AVAILABLE = False
 
 import matplotlib.pyplot as plt
 import networkx as nx

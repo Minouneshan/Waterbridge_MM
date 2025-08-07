@@ -1,0 +1,19 @@
+{
+  "analysis_timestamp": "2025-08-07T10:54:19.156037",
+  "total_forecasts_analyzed": 5,
+  "configuration": {
+    "thresholds": {
+      "F1_TARIFF_PP": 1.0,
+      "F6_CHINA_PERCENT": 12.0,
+      "F10_BRICS_PERCENT": 40.0,
+      "F12_VDEM_SCORE": 0.4
+    },
+    "figure_settings": {
+      "size": [
+        12,
+        8
+      ],
+      "dpi": 300
+    }
+  }
+}

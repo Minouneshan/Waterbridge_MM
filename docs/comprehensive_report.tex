@@ -1,45 +1,55 @@
-\documentclass[12pt]{article}
-
-% Encoding and font packages
+\documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-% Page layout
-\usepackage[margin=1in]{geometry}
-
-% Math and symbols
-\usepackage{amsmath,amssymb}
-
-% Graphics and figures
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
 \usepackage{graphicx}
-
-% Hyperlinks
-\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
-
-% For lists and tables
 \usepackage{enumitem}
+\usepackage{array}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{tabularx}
 \usepackage{caption}
+\usepackage{float}
 
-% Unicode character declarations to prevent compile errors
-\DeclareUnicodeCharacter{2265}{\ensuremath{\geq}} % ≥
-\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}} % ≤
-\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}} % →
-\DeclareUnicodeCharacter{2013}{--} % – (en dash)
-\DeclareUnicodeCharacter{2014}{---} % — (em dash)
+% Compact margins
+\geometry{margin=0.75in}
 
-% Declare additional Unicode characters used in tether citations and daggers
-\DeclareUnicodeCharacter{3010}{[} % 【 maps to left bracket
-\DeclareUnicodeCharacter{3011}{]} % 】 maps to right bracket
-\DeclareUnicodeCharacter{2020}{\dagger} % † maps to dagger symbol
+% Graphics path
+\graphicspath{{figures/}{./}}
 
-% Title
-\title{Modern Mercantilism and Global Fragmentation (2025--2035)\\Comprehensive Analysis and Validation Framework}
+% Slightly tighter line spacing
+\setstretch{0.96}
+
+% Landscape table environment
+\newenvironment{landscapetable}{\begin{landscape}\small}{\end{landscape}}
+
+% Part heading fix for article class
+\newcommand{\parttitle}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+
+% Tighter section spacing
+\titlespacing{\section}{0pt}{8pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing{\subsection}{0pt}{6pt plus 2pt minus 2pt}{3pt plus 2pt minus 2pt}
+\titlespacing{\subsubsection}{0pt}{4pt plus 2pt minus 2pt}{2pt plus 2pt minus 2pt}
+
+% Paragraph spacing
+\setlength{\parskip}{3pt}
+\setlength{\itemsep}{2pt}
+\setlength{\topsep}{2pt}
+\setlength{\partopsep}{2pt}
+
+\title{\textbf{Forecasting the Future: Modern Mercantilism and Global Fragmentation (2025--2035)}\\\Large Comprehensive Analysis and Validation Framework}
 \author{Mo Minoneshan\\
 \small Email: \href{mailto:sm5943@columbia.edu}{sm5943@columbia.edu}\\
-\small Repository: \url{github.com/Minouneshan/Waterbridge_MM}\\
-\small Linkedin: \url{linkedin.com/in/minoneshan/}
-}
-\date{August 2025}
+\small Repository: \url{https://github.com/Minouneshan/Waterbridge\_MM}\\
+\small Contact: \url{https://www.linkedin.com/in/minoneshan/}}
+\date{August 2025}
 
 \begin{document}
 
