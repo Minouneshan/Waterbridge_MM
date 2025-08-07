@@ -1,7 +1,7 @@
 """Advanced Bayesian Network implementation using pgmpy for Modern Mercantilism forecasting.
 
 This module implements the sophisticated 25-node Bayesian belief network described
-in the research papers, with proper belief propagation, evidence updating, and
+in the research paper, with proper belief propagation, evidence updating, and
 sensitivity analysis using the pgmpy library.
 """
 import numpy as np

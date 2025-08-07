@@ -1,6 +1,5 @@
 """
 Utility functions for Modern Mercantilism Analysis
-Consolidated common functionality for cleaner code
 """
 
 import pandas as pd
