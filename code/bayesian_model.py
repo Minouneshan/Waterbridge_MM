@@ -105,7 +105,7 @@ class BayesianForecastModel:
             cmap=plt.cm.viridis,
             node_size=node_sizes,
         )
-        nx.draw_networkx_labels(self.graph, pos, font_size=9, font_weight="bold", color="white")
+        nx.draw_networkx_labels(self.graph, pos, font_size=9, font_weight="bold", font_color="white")
         cbar = plt.colorbar(nodes)
         cbar.set_label("Current probability", rotation=270, labelpad=15)
         plt.axis("off")

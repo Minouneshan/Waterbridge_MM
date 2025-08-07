@@ -16,17 +16,21 @@ Our methodology produces calibrated probability estimates for **25 binary foreca
 
 ## 2. Core Analytical Framework
 ### 2.1 Bayesian Belief Network
-* **Implementation:** `code/bayesian_model.py`
-* **Nodes:** 25 forecasts organised into four causal clusters (Trade-Security, Tech Competition, Financial Fragmentation, Resource-Climate).
+* **Implementation:** `code/bayesian_model.py` (simple framework) and `code/advanced_bayesian_model.py` (pgmpy-based)
+* **Nodes:** 25 forecasts organised into causal clusters with directed edges representing dependencies.
 * **Update Rule:**
 \[\text{logit}(P_{\text{updated}})=\text{logit}(P_{\text{prior}})+\sum_i w_i E_i\]
 with **w\_i ∈ [0.40,0.90]** reflecting source credibility and **E\_i** the signed evidence strength.
+* **Libraries:** NetworkX for visualization, pgmpy for advanced belief propagation (when available).
 
 ### 2.2 Econometric Toolkit
-* Vector Autoregression (VAR) for coupled trends.
-* Monte-Carlo simulation (10 000 draws) for uncertainty bounds.
-* Structural-break testing (Chow & Bai-Perron) identifies regime shifts (e.g., 2018 tariff wave).
-* Granger causality for directionality validation.
+* **Implementation:** `code/advanced_models.py` and `code/statistical_tests.py`
+* Vector Autoregression (VAR) for FX reserve share dynamics (F17, F18).
+* Logistic regression for binary adoption forecasts (carbon tariffs, tech standards).
+* Monte-Carlo simulation (1,000-10,000 draws) for uncertainty bounds.
+* Structural-break testing (Chow tests) identifies regime shifts (e.g., 2018 tariff wave).
+* Granger causality tests for directional relationships validation.
+* **Libraries:** statsmodels, scikit-learn, arch (for advanced econometric tests).
 
 ### 2.3 Game-Theoretic Modules
 * **Industrial Subsidy Game:** N-player Nash equilibrium modelling subsidy escalation.

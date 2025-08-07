@@ -1,11 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy import stats
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 import seaborn as sns
 from bayesian_model import create_comprehensive_model
+from advanced_bayesian_model import create_advanced_model
+from advanced_models import var_reserve_shares, logistic_carbon_tariffs, logistic_tech_bifurcation
+from statistical_tests import run_econometric_validation
 import warnings
 from pathlib import Path
 
@@ -24,19 +26,18 @@ def load_and_validate_data():
         china_imports = pd.read_csv(data_dir / 'us_imports.csv')
         vietnam_imports = pd.read_csv(data_dir / 'vietnam_us_imports.csv')
         brics_gdp = pd.read_csv(data_dir / 'brics_gdp_share.csv')
-        brics_data = pd.read_csv(data_dir / 'brics_data.csv')
         
-        print("✓ All data files loaded successfully")
-        return china_imports, vietnam_imports, brics_gdp, brics_data
+        print("All data files loaded successfully")
+        return china_imports, vietnam_imports, brics_gdp
         
     except FileNotFoundError as e:
         print(f"❌ Error loading data files: {e}")
         print("Please ensure all CSV files are in the 'data' directory.")
-        return None, None, None, None
+        return None, None, None
 
 def analyze_china_import_decline():
     """Analyze F6: China's declining share of U.S. imports"""
-    china_imports, _, _, _ = load_and_validate_data()
+    china_imports, _, _ = load_and_validate_data()
     if china_imports is None:
         return None
     
@@ -106,7 +107,7 @@ def analyze_china_import_decline():
 
 def analyze_vietnam_import_growth():
     """Analyze F7: Vietnam imports doubling"""
-    _, vietnam_imports, _, _ = load_and_validate_data()
+    _, vietnam_imports, _ = load_and_validate_data()
     if vietnam_imports is None:
         return None
     
@@ -165,7 +166,7 @@ def analyze_vietnam_import_growth():
 
 def analyze_brics_expansion():
     """Analyze F10: BRICS expansion"""
-    _, _, brics_gdp, brics_data = load_and_validate_data()
+    _, _, brics_gdp = load_and_validate_data()
     if brics_gdp is None:
         return None
     
@@ -245,7 +246,7 @@ def analyze_brics_expansion():
 
 def generate_comprehensive_analysis():
     """Generate comprehensive analysis of all quantitative forecasts"""
-    print("🔍 COMPREHENSIVE MODERN MERCANTILISM ANALYSIS")
+    print("COMPREHENSIVE MODERN MERCANTILISM ANALYSIS")
     print("=" * 60)
     
     # Analyze individual forecasts
@@ -254,7 +255,7 @@ def generate_comprehensive_analysis():
     brics_results = analyze_brics_expansion()
     
     # Create Bayesian model and run analysis
-    print("\n📊 BAYESIAN NETWORK ANALYSIS")
+    print("\nBAYESIAN NETWORK ANALYSIS")
     print("-" * 40)
     
     model = create_comprehensive_model()
@@ -268,10 +269,21 @@ def generate_comprehensive_analysis():
     
     if brics_results and brics_results['gdp_analysis']['meets_40_percent']:
         model.update_with_evidence('F10', 0.6, 'BRICS GDP share trending toward 40% by 2030', 'academic_research')
+
+    # Advanced models
+    reserve_probs = var_reserve_shares(2030, usd_threshold=55.5, rmb_threshold=3.0)
+    model.forecasts['F17']['current_prob'] = reserve_probs['usd_prob_gt_50']
+    model.forecasts['F18']['current_prob'] = reserve_probs['rmb_prob_lt_10']
+
+    f20_prob = logistic_carbon_tariffs(2029, threshold=7)
+    model.forecasts['F20']['current_prob'] = f20_prob
+
+    f14_prob = logistic_tech_bifurcation(2027, threshold=5)
+    model.forecasts['F14']['current_prob'] = f14_prob
     
     # Generate network visualization
     viz_path = model.visualize_network(str(ROOT_DIR / 'docs' / 'bayesian_analysis.png'))
-    print(f"✓ Network visualization saved: {viz_path}")
+    print(f"Network visualization saved: {viz_path}")
     
     # Generate summary statistics
     all_forecasts = list(model.forecasts.keys())
@@ -279,7 +291,7 @@ def generate_comprehensive_analysis():
     high_confidence = [f for f in all_forecasts if model.forecasts[f]['current_prob'] > 0.75]
     uncertain_forecasts = [f for f in all_forecasts if 0.4 <= model.forecasts[f]['current_prob'] <= 0.6]
     
-    print(f"\n📈 SUMMARY STATISTICS")
+    print("\nSUMMARY STATISTICS")
     print("-" * 40)
     print(f"Total Forecasts: {len(all_forecasts)}")
     print(f"Average Probability: {avg_probability:.1%}")
@@ -287,7 +299,7 @@ def generate_comprehensive_analysis():
     print(f"Uncertain (40-60%): {len(uncertain_forecasts)} forecasts")
     
     # Detailed results
-    print(f"\n🎯 DETAILED FORECAST RESULTS")
+    print("\nDETAILED FORECAST RESULTS")
     print("-" * 40)
     
     if china_results:
@@ -308,7 +320,45 @@ def generate_comprehensive_analysis():
         print(f"  • Projected 2030: {brics_results['gdp_analysis']['projected_2030']:.1f}%")
         print(f"  • Annual growth: {brics_results['gdp_analysis']['annual_growth_rate']:.2f} pp/year")
     
-    print(f"\n✅ Analysis complete. Charts saved to '../docs/' directory")
+    # Advanced Bayesian Network Analysis
+    print("\n" + "="*50)
+    print("ADVANCED BAYESIAN NETWORK ANALYSIS")
+    print("="*50)
+    
+    try:
+        advanced_model = create_advanced_model()
+        print("Advanced Bayesian network initialized successfully")
+        
+        # Run Monte Carlo simulation
+        print("Running Monte Carlo uncertainty analysis...")
+        mc_results = advanced_model.monte_carlo_simulation(1000)
+        
+        print("\nMonte Carlo Confidence Intervals:")
+        for forecast_id in ['F1', 'F6', 'F14', 'F17']:
+            if forecast_id in mc_results:
+                result = mc_results[forecast_id]
+                ci_90 = result['ci_90']
+                print(f"{forecast_id}: {result['baseline']:.1%} (90% CI: {ci_90[0]:.1%}–{ci_90[1]:.1%})")
+        
+        # Generate network visualization
+        print("Generating Bayesian network visualization...")
+        advanced_model.visualize_network()
+        
+    except Exception as e:
+        print(f"Advanced Bayesian analysis failed: {e}")
+        print("Continuing with basic analysis...")
+    
+    # Run econometric validation tests
+    print("\n" + "="*50)
+    print("ECONOMETRIC VALIDATION")
+    print("="*50)
+    
+    try:
+        run_econometric_validation()
+    except Exception as e:
+        print(f"Econometric validation failed: {e}")
+    
+    print(f"\nAnalysis complete. Charts saved to '../docs/' directory")
     
     return {
         'china_analysis': china_results,

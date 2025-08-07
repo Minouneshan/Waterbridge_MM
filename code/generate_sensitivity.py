@@ -59,7 +59,7 @@ def write_latex_table(df: pd.DataFrame, path: Path) -> None:
 def main():
     df = compute_sensitivity()
     write_latex_table(df, OUTPUT_PATH)
-    print(f"✓ Sensitivity appendix written to {OUTPUT_PATH.relative_to(ROOT_DIR)}")
+    print(f"Sensitivity appendix written to {OUTPUT_PATH.relative_to(ROOT_DIR)}")
 
 
 if __name__ == "__main__":

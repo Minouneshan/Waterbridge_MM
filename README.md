@@ -23,13 +23,19 @@ a) conda env create -f environment.yml      # or: mamba env create -f environmen
 # 2. Activate it
 conda activate waterbridge_mm
 
-# 3. Run the test-suite (optional but recommended)
-pytest -q
+# 3. Install additional packages (if needed)
+pip install pgmpy arch linearmodels seaborn
+
+# 4. Run comprehensive analysis
+python code/analysis.py
+
+# 5. Run statistical validation (optional)
+python code/statistical_tests.py
 ```
 
 ### 2.3 Building the report
 ```bash
-# Compile the LaTeX document (output goes to docs/)
+# Compile the LaTeX documents (output goes to docs/)
 make pdf         # convenient wrapper – or run the pdflatex sequence below
 
 # Manual alternative
@@ -38,19 +44,21 @@ pdflatex  -interaction=nonstopmode -output-directory=docs  docs/final_comprehens
 
 ### 2.4 Reproducing the analysis
 ```bash
-python code/index_calc.py         # BRICS & monetary indicators
-python code/simple_analysis.py    # Core regression & trend analysis
-python code/analysis.py           # Full Bayesian & game-theoretic model
+python code/analysis.py                # Full comprehensive analysis
+python code/advanced_bayesian_model.py # Test Bayesian network implementation
+python code/statistical_tests.py       # Econometric validation tests
+python code/generate_sensitivity.py    # Generate sensitivity analysis
 ```
 All scripts write intermediate CSVs/PNGs to the `data/` and `docs/` directories and can be chained in a single run-all workflow (see `code/analysis.py`).
 
 ---
 
 ## 3. Key Findings (selected)
-* **WTO Appellate Body stall (92 %):** high persistence of unilateral trade remedies until at least 2027.
-* **Supply-chain pivot (78 %):** China’s share of U.S. goods imports falls below **12 %** by 2027; Vietnam trade volume with the U.S. doubles (74 %).
-* **Tech standards bifurcation (86 %):** Distinct U.S.- versus China-led standards dominate **≥ 3** critical technology verticals by 2030.
-* **Industrial subsidy race (80 %):** ≥ 5 G-20 economies announce subsidy programmes exceeding **$50 bn** before 2026.
+* **Tariff escalation (70%):** Global average MFN tariffs rise by ≥2 percentage points above 2022 baseline by 2026.
+* **Supply-chain pivot (75%):** China's share of U.S. goods imports falls below **12%** by 2027; Vietnam trade volume with the U.S. doubles (72%).
+* **Tech standards bifurcation (85%):** Distinct U.S.- versus China-led standards dominate **≥5** critical technology verticals by 2027.
+* **USD reserve resilience (66%):** U.S. dollar maintains **>55.5%** of global FX reserves through 2030 despite fragmentation.
+* **Carbon tariff proliferation (64%):** **≥7** G-20 economies implement carbon tariffs by 2029.
 
 (See the report for the full list of 25 forecasts, evidence, and resolution criteria.)
 
