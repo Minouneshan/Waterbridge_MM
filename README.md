@@ -138,6 +138,8 @@ Waterbridge_MM/
 │   └── source_links.txt            # Data provenance documentation
 ├── docs/                           # Reports & documentation
 │   ├── comprehensive_report.pdf        # Main comprehensive report
+│   ├── comprehensive_report_submitted.pdf  # Bridgewater submission version
+│   ├── final_report_submitted.pdf         # Bridgewater submission version
 │   ├── *.png                          # Analysis visualizations
 │   ├── analysis_metadata.json         # Model metadata
 │   └── *.tex                          # LaTeX source files
@@ -194,6 +196,12 @@ Pull requests improving documentation, tests, or analytical methods are welcome.
 
 ## 8. License
 Distributed under the **MIT License**. See `LICENCE` for full text.
+
+---
+
+## 9. Submission History
+- **`docs/*_submitted.pdf`** files represent the exact versions submitted to Bridgewater's "Forecasting the Future" challenge on August 1, 2025 (replaced August 5 for LaTeX formatting fixes only)
+- **Current repository** may contain updated probabilities and ongoing research beyond the official submission
 
 ---
 *Last updated: 2025-08-07 | Complete Quantitative Coverage Achieved*
